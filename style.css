@@ -1,0 +1,105 @@
+/* style.css */
+
+/* Reset de estilos padrão para remoção de margens e preenchimentos */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #8a63b4; /* Lilás */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    background-color: #fff;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #8a63b4; /* Lilás */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a37cc1; /* Tom mais claro de lilás */
+}
+/* style.css */
+
+/* Reset de estilos padrão para remoção de margens e preenchimentos */
+body, th, td, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #8a63b4; /* Lilás */
+    color: #fff;
+}
+
+a {
+    display: block;
+    text-align: center;
+    background-color: #8a63b4; /* Lilás */
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 20px auto;
+    width: 250px;
+}
+
+a:hover {
+    background-color: #a37cc1; /* Tom mais claro de Lilás */
+}
+
